@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{262b2075-78f8-493f-bff3-205c19b0e528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Plugins\sinus">
+      <UniqueIdentifier>{56a97b28-a87e-4f2a-a010-d2a24ceb8fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\power">
+      <UniqueIdentifier>{4a09d735-c86d-4548-a1bb-7b46bf83ed0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\multiplication">
+      <UniqueIdentifier>{6398924e-aa3c-435a-837f-04ea8aa6614c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\cosine">
+      <UniqueIdentifier>{192d0d7e-05e6-4dcf-aa13-7b67189cf88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\division">
+      <UniqueIdentifier>{0217040c-ee95-461c-be1c-a1d76fb875f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\addition">
+      <UniqueIdentifier>{87cf3487-b7aa-4b35-af59-3145a5fd04d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\pi">
+      <UniqueIdentifier>{7be31b38-ad70-4666-b519-3e2a70aaaf16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\substraction">
+      <UniqueIdentifier>{91dbdd05-ac48-4532-b334-06917e298a6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\e">
+      <UniqueIdentifier>{82a2e21d-4174-443b-b132-f0b4874b0e45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="calculator\calculator.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator\common.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator\error.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator\expression.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator\function.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator\number.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="calculator\operation.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\sinus.cpp">
+      <Filter>Plugins\sinus</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\cosine.cpp">
+      <Filter>Plugins\cosine</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\power.cpp">
+      <Filter>Plugins\power</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\multiplication.cpp">
+      <Filter>Plugins\multiplication</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\division.cpp">
+      <Filter>Plugins\division</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\addition.cpp">
+      <Filter>Plugins\addition</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\pi.cpp">
+      <Filter>Plugins\pi</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\subtraction.cpp">
+      <Filter>Plugins\substraction</Filter>
+    </ClCompile>
+    <ClCompile Include="plugins\e.cpp">
+      <Filter>Plugins\e</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculator\calculator.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\common.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\plugin_base.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\error.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\expression.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\function.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\expression_interface.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\number.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="calculator\operation.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\sinus.h">
+      <Filter>Plugins\sinus</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\cosine.h">
+      <Filter>Plugins\cosine</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\power.h">
+      <Filter>Plugins\power</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\multiplication.h">
+      <Filter>Plugins\multiplication</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\division.h">
+      <Filter>Plugins\division</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\addition.h">
+      <Filter>Plugins\addition</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\pi.h">
+      <Filter>Plugins\pi</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\subtraction.h">
+      <Filter>Plugins\substraction</Filter>
+    </ClInclude>
+    <ClInclude Include="plugins\e.h">
+      <Filter>Plugins\e</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
