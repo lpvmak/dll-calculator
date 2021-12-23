@@ -13,7 +13,6 @@ public:
     bool isUnary;
     Operation *base_operations;
 
-    //TO DO: safe handling of adding expressions to children
     virtual Expression *getExpression() { return 0; }
     virtual double calculate() { return 0; }
     virtual ~ExpressionInterface() { delete base_operations; }
